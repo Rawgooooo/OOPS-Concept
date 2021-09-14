@@ -16,8 +16,8 @@ A class is an example of encapsulation as it encapsulates all the data that is m
 # Creating a Base class
 class Base:
     def __init__(self):
-        self.a = "GeeksforGeeks"
-        self.__c = "GeeksforGeeks"
+        self.a = "Byte_Base"
+        self.__c = "Byte_BaseR"
 
 
 # Creating a derived class
