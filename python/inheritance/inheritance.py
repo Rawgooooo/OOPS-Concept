@@ -23,7 +23,7 @@ class Person(object):
 
 # child class
 class Employee(Person):
-    def __init__(self, name, idnumber, salary, post):
+    def __init__(self, name, idnumber, post, salary):
         self.salary = salary
         self.post = post
 
@@ -37,7 +37,7 @@ class Employee(Person):
         print(f"Income: {self.salary}")
 
 # creating of object or instance
-a = Employee("Joshua Redding", 84641231079, 20000, "Intern")
+a = Employee("Joshua Redding", 84641231079, "Intern", 20000)
 
 # calling a function of the class Person using its instance
 a.display()
